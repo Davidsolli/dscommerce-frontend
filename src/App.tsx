@@ -1,7 +1,6 @@
 import Catalog from "./routes/Catalog/indext";
+import ProductDetails from "./routes/ProductDetails";
 
-function App() {
-  return <Catalog />;
+export default function App() {
+  return <ProductDetails />;
 }
-
-export default App;
